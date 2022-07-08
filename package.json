@@ -1,13 +1,18 @@
 {
   "_args": [
     [
-      "github:laget-se/simple-pubsub",
-      "D:\\web\\laget.Web.Content"
+      "github:jeremistadler/simple-pubsub",
+      "C:\\projects\\work\\laget\\web\\laget.Web.Content"
     ]
   ],
   "_development": true,
+<<<<<<< HEAD
   "_from": "github:laget-se/simple-pubsub",
   "_id": "simple-pubsub@github:laget-se/simple-pubsub#6b0c5ce5cae2e61e54ae15fdc57783d15082dfca",
+=======
+  "_from": "github:jeremistadler/simple-pubsub",
+  "_id": "simple-pubsub@github:jeremistadler/simple-pubsub#e2ceb978eaa19855a746d7d28feba536e11ed03f",
+>>>>>>> parent of 984b867 (Updated npm package(s))
   "_inBundle": false,
   "_integrity": "",
   "_location": "/simple-pubsub",
@@ -19,19 +24,23 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "github:laget-se/simple-pubsub",
-    "rawSpec": "github:laget-se/simple-pubsub",
-    "saveSpec": "github:laget-se/simple-pubsub",
+    "raw": "github:jeremistadler/simple-pubsub",
+    "rawSpec": "github:jeremistadler/simple-pubsub",
+    "saveSpec": "github:jeremistadler/simple-pubsub",
     "fetchSpec": null,
     "gitCommittish": null
   },
   "_requiredBy": [
     "#DEV:/"
   ],
+<<<<<<< HEAD
   "_resolved": "github:laget-se/simple-pubsub#6b0c5ce5cae2e61e54ae15fdc57783d15082dfca",
+=======
+  "_resolved": "github:jeremistadler/simple-pubsub#e2ceb978eaa19855a746d7d28feba536e11ed03f",
+>>>>>>> parent of 984b867 (Updated npm package(s))
   "_shasum": "d05c24de7a5e78cc6abdd015578bf6ade7053954",
-  "_spec": "github:laget-se/simple-pubsub",
-  "_where": "D:\\web\\laget.Web.Content",
+  "_spec": "github:jeremistadler/simple-pubsub",
+  "_where": "C:\\projects\\work\\laget\\web\\laget.Web.Content",
   "bugs": {
     "url": "https://github.com/damassi/simple-pubsub/issues"
   },
@@ -42,25 +51,34 @@
     }
   ],
   "dependencies": {
-    "backbone": "~1.4.1",
-    "grunt": "~1.5.3",
-    "underscore": "~1.13.4"
+    "backbone": "~1.1.0",
+    "grunt": "~0.4.0",
+    "underscore": "~1.5.2"
   },
   "description": "Simple PubSub eventing via proxied Backbone.Events",
   "devDependencies": {
+<<<<<<< HEAD
     "chai": "~4.3.6",
     "coffee-script": "~1.12.7",
     "grunt": "~1.5.3",
     "grunt-contrib-coffee": "~2.1.0",
     "grunt-contrib-watch": "~1.1.0",
     "grunt-simple-mocha": "~0.4.1"
+=======
+    "chai": "~1.7.2",
+    "coffee-script": "~1.6.3",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-simple-mocha": "~0.4.0"
+>>>>>>> parent of 984b867 (Updated npm package(s))
   },
   "directories": {},
   "dist": {
     "shasum": "d05c24de7a5e78cc6abdd015578bf6ade7053954",
     "tarball": "http://registry.npmjs.org/simple-pubsub/-/simple-pubsub-0.0.1.tgz"
   },
-  "homepage": "https://github.com/laget-se/simple-pubsub#readme",
+  "homepage": "https://github.com/damassi/simple-pubsub#readme",
   "keywords": [
     "pubsub",
     "events",
@@ -72,10 +90,10 @@
   "name": "simple-pubsub",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:laget-se/simple-pubsub.git"
+    "url": "git+https://github.com/damassi/simple-pubsub.git"
   },
   "scripts": {
     "test": "grunt test"
   },
-  "version": "0.4.0"
+  "version": "0.0.3"
 }
