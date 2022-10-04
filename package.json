@@ -45,7 +45,7 @@
     }
   ],
   "dependencies": {
-    "backbone": "~1.1.0",
+    "backbone": "~1.4.1",
     "underscore": "~1.5.2"
   },
   "description": "Simple PubSub eventing via proxied Backbone.Events",
